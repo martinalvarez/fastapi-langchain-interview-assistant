@@ -23,9 +23,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 2.  **Create and activate the virtual environment:**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # macOS/Linux
-    # venv\Scripts\activate   # Windows CMD
+    python -m venv .venv
+    source .venv/bin/activate  # macOS/Linux
+    # .venv\Scripts\activate   # Windows CMD
     ```
 
 3.  **Install dependencies:**
