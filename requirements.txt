@@ -1,0 +1,16 @@
+# FastAPI and Server
+fastapi
+uvicorn[standard] # ASGI server to run the app
+
+# LangChain and LLMs (Basic example, you can change the provider)
+langchain
+langchain-openai # Or langchain-google-genai, etc.
+python-dotenv    # To load the .env file
+
+# Data Validation and Configuration
+pydantic
+pydantic-settings # To handle FastAPI configuration
+
+# Testing
+pytest
+httpx          # Asynchronous testing client for FastAPI
